@@ -16,6 +16,5 @@ class Tambah extends CI_Controller {
 	public function simpan()
 	{
 		$this->model_mobil->simpan();
-    redirect("/");
 	}
 }
