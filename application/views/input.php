@@ -5,31 +5,31 @@
                <div class="card-body">
                    <h2 class="title">Tambah Data</h2>
                    <form action="simpan"method="POST" role="form">
-                       <div class="row row-space">
-                           <div class="col-5">
-                               <div class="input-group">
-                                   <label class="label">Nama Mobil</label>
-                                   <input class="input--style-4" type="text" name="nama">
-                               </div>
-                           </div>
-                           <div class="col-5">
-                             <label class="label">Merk</label>
-                             <div class="rs-select2 js-select-simple select--no-search">
-                                 <select name="merk">
-                                     <option disabled="disabled" selected="selected">Pilih Merk Mobil</option>
-                                     <option>Toyota</option>
-                                     <option>Honda</option>
-                                     <option>Suzuki</option>
-                                     <option>Nissan</option>
-                                     <option>Mitsubishi</option>
-                                     <option>Daihatsu</option>
-                                     <option>Mazda</option>
-                                     <option>Hino</option>
-                                 </select>
-                                 <div class="select-dropdown"></div>
-                             </div>
-                           </div>
-                       </div>
+                     <div class="row row-space">
+                          <div class="col-5">
+                              <div class="input-group">
+                                  <label class="label">Nama Mobil</label>
+                                  <input class="input--style-4" type="text" name="nama">
+                              </div>
+                          </div>
+                          <div class="col-5">
+                            <label class="label">Merk</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                  <select name="merk">
+                                    <option disabled="disabled" selected="selected">Pilih Merk Mobil</option>
+                                    <option>Toyota</option>
+                                    <option>Honda</option>
+                                    <option>Suzuki</option>
+                                    <option>Nissan</option>
+                                    <option>Mitsubishi</option>
+                                    <option>Daihatsu</option>
+                                    <option>Mazda</option>
+                                    <option>Hino</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                          </div>
+                      </div>
                        <div class="row row-space">
                            <div class="col-5">
                                <div class="input-group">
@@ -53,8 +53,8 @@
                            </div>
                            <div class="col-5">
                                <div class="input-group">
-                                   <label class="label">Kapasitas Mesin</label>
-                                   <input class="input--style-4" type="number" name="kapasitas" placeholder="100cc" min="0">
+                                   <label class="label">Model</label>
+                                   <input class="input--style-4" type="text" name="model">
                                </div>
                            </div>
                        </div>
@@ -76,21 +76,10 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Tahun</label>
-                                   <input class="input--style-4" type="text" name="tahun">
+                                   <input class="input--style-4" type="number" name="tahun">
                                </div>
                            </div>
-                       </div>
-                       <div class="row row-space">
-                           <div class="col-2">
-                               <div class="input-group">
-                                   <label class="label">Masa Berlaku STNK</label>
-                                   <div class="input-group-icon">
-                                       <input class="input--style-4 js-datepicker" type="text" name="masa_berlaku" data-date-format="YYYY-MMMM-DD ">
-                                       <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-2">
+                           <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Transmisi</label>
                                    <div class="p-t-10">
@@ -106,7 +95,56 @@
                                </div>
                            </div>
                        </div>
-
+                       <div class="row row-space">
+                           <div class="col-5">
+                             <div class="input-group">
+                                 <label class="label">Masa Berlaku STNK</label>
+                                   <input class="input--style-5" type="date" name="masa_berlaku" min="2010-12-31" placeholder="01-01-2010" >
+                             </div>
+                           </div>
+                           <div class="col-5">
+                             <div class="input-group">
+                                 <label class="label">Kapasitas Mesin</label>
+                                 <input class="input--style-4" type="number" name="kapasitas" placeholder="100cc" min="0">
+                             </div>
+                           </div>
+                       </div>
+                       <div class="row row-space">
+                           <div class="col-5">
+                                 <div class="input-group">
+                                     <label class="label">Gambar 1</label>
+                                     <input class="input--style-4" type="text" name="gambar1">
+                                 </div>
+                             </div>
+                              <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">Gambar 2</label>
+                                   <input class="input--style-4" type="text" name="gambar2">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row row-space">
+                           <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">Gambar 4</label>
+                                   <input class="input--style-4" type="text" name="gambar4">
+                               </div>
+                           </div>
+                           <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">Gambar 3</label>
+                                   <input class="input--style-4" type="text" name="gambar3">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row row-space">
+                           <div class="col-8">
+                               <div class="input-group">
+                                   <label class="label">Deskripsi</label>
+                                   <textarea class="input--style-4" name="desc" rows="8" cols="80"></textarea>
+                               </div>
+                           </div>
+                       </div>
                        <div class="p-t-15">
                            <button class="btn btn--radius-2 btn--blue" type="submit">Simpan</button>
                        </div>

@@ -6,29 +6,20 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-  <!-- Favicons -->
-  <link href="asets/img/favicon.png" rel="icon">
-  <link href="asets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <!-- Google Fonts -->
+
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="asets/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
   <!-- Bootstrap CSS File -->
   <link href="asets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Libraries CSS Files -->
-  <link href="asets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="asets/lib/animate/animate.min.css" rel="stylesheet">
-  <link href="asets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="asets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('asets/datatables/css/dataTables.bootstrap.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('asets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('asets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')?>" rel="stylesheet">
   <!-- Main Stylesheet File -->
-  <!-- Icons font CSS-->
-  <link href="asets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-  <link href="asets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <!-- Vendor CSS-->
-  <link href="asets/vendor/select2/select2.min.css" rel="stylesheet" media="all">
-  <link href="asets/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
-
-    <!-- Main CSS-->
-    <link href="asets/css/main.css" rel="stylesheet" media="all">
+  <link href="asets/css/select2/select2.min.css" rel="stylesheet" media="all">
+  <link href="asets/datepicker/daterangepicker.css" rel="stylesheet" media="all">
   <link href="asets/css/style.css" rel="stylesheet">
-	<link href="asets/css/custom.css" rel="stylesheet">
+  <link href="asets/css/maintmh.css" rel="stylesheet">
+  <link href="asets/css/customstyle.css" rel="stylesheet">
 </head>
 <body>
