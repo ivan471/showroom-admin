@@ -111,28 +111,28 @@ class Person extends CI_Controller {
 		if($this->input->post('nama') == '')
 		{
 			$data['inputerror'][] = 'nama';
-			$data['error_string'][] = 'First name is required';
+			$data['error_string'][] = 'Name harus diisi';
 			$data['status'] = FALSE;
 		}
 
 		if($this->input->post('merk') == '')
 		{
 			$data['inputerror'][] = 'merk';
-			$data['error_string'][] = 'Last name is required';
+			$data['error_string'][] = 'Merk harus diisi';
 			$data['status'] = FALSE;
 		}
 
 		if($this->input->post('tahun') == '')
 		{
 			$data['inputerror'][] = 'tahun';
-			$data['error_string'][] = 'Please select gender';
+			$data['error_string'][] = 'Tahun harus diisi';
 			$data['status'] = FALSE;
 		}
 
 		if($this->input->post('warna') == '')
 		{
 			$data['inputerror'][] = 'warna';
-			$data['error_string'][] = 'Addess is required';
+			$data['error_string'][] = 'Warna harus diisi';
 			$data['status'] = FALSE;
 		}
 

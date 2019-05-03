@@ -9,13 +9,13 @@
                           <div class="col-5">
                               <div class="input-group">
                                   <label class="label">Nama Mobil</label>
-                                  <input class="input--style-4" type="text" name="nama">
+                                  <input class="input--style-4" type="text" name="nama" required>
                               </div>
                           </div>
                           <div class="col-5">
                             <label class="label">Merk</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                  <select name="merk">
+                                  <select name="merk" required>
                                     <option disabled="disabled" selected="selected">Pilih Merk Mobil</option>
                                     <option>Toyota</option>
                                     <option>Honda</option>
@@ -34,13 +34,13 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Type</label>
-                                   <input class="input--style-4" type="text" name="type">
+                                   <input class="input--style-4" type="text" name="type"required>
                                </div>
                            </div>
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Warna</label>
-                                   <input class="input--style-4" type="text" name="warna">
+                                   <input class="input--style-4" type="text" name="warna"required>
                                </div>
                            </div>
                        </div>
@@ -48,13 +48,13 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">No Polisi</label>
-                                   <input class="input--style-4" type="text" name="no_polisi" >
+                                   <input class="input--style-4" type="text" name="no_polisi"required >
                                </div>
                            </div>
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Model</label>
-                                   <input class="input--style-4" type="text" name="model">
+                                   <input class="input--style-4" type="text" name="model"required>
                                </div>
                            </div>
                        </div>
@@ -62,13 +62,13 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Bahan Bakar</label>
-                                   <input class="input--style-4" type="text" name="bahan_bakar">
+                                   <input class="input--style-4" type="text" name="bahan_bakar"required>
                                </div>
                            </div>
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Harga</label>
-                                   <input class="input--style-4" type="number" name="harga">
+                                   <input class="input--style-4" type="number" name="harga"required>
                                </div>
                            </div>
                        </div>
@@ -76,7 +76,7 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Tahun</label>
-                                   <input class="input--style-4" type="number" name="tahun">
+                                   <input class="input--style-4" type="number" name="tahun"required>
                                </div>
                            </div>
                            <div class="col-5">
@@ -99,13 +99,13 @@
                            <div class="col-5">
                              <div class="input-group">
                                  <label class="label">Masa Berlaku STNK</label>
-                                   <input class="input--style-5" type="date" name="masa_berlaku" min="2010-12-31" placeholder="01-01-2010" >
+                                   <input class="input--style-5" type="date" name="masa_berlaku" min="2010-12-31" placeholder="01-01-2010"required >
                              </div>
                            </div>
                            <div class="col-5">
                              <div class="input-group">
                                  <label class="label">Kapasitas Mesin</label>
-                                 <input class="input--style-4" type="number" name="kapasitas" placeholder="100cc" min="0">
+                                 <input class="input--style-4" type="number" name="kapasitas" placeholder="100cc" min="0"required>
                              </div>
                            </div>
                        </div>
@@ -113,13 +113,13 @@
                            <div class="col-5">
                                  <div class="input-group">
                                      <label class="label">Gambar 1</label>
-                                     <input class="input--style-4" type="text" name="gambar1">
+                                     <input class="input--style-4" type="text" name="gambar1"required>
                                  </div>
                              </div>
                               <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Gambar 2</label>
-                                   <input class="input--style-4" type="text" name="gambar2">
+                                   <input class="input--style-4" type="text" name="gambar2"required>
                                </div>
                            </div>
                        </div>
@@ -127,13 +127,13 @@
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Gambar 4</label>
-                                   <input class="input--style-4" type="text" name="gambar4">
+                                   <input class="input--style-4" type="text" name="gambar4"required>
                                </div>
                            </div>
                            <div class="col-5">
                                <div class="input-group">
                                    <label class="label">Gambar 3</label>
-                                   <input class="input--style-4" type="text" name="gambar3">
+                                   <input class="input--style-4" type="text" name="gambar3"required>
                                </div>
                            </div>
                        </div>
@@ -141,7 +141,7 @@
                            <div class="col-8">
                                <div class="input-group">
                                    <label class="label">Deskripsi</label>
-                                   <textarea class="input--style-4" name="desc" rows="8" cols="80"></textarea>
+                                   <textarea class="input--style-4" name="desc" rows="8" cols="80"required></textarea>
                                </div>
                            </div>
                        </div>

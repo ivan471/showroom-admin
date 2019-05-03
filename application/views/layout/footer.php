@@ -14,10 +14,10 @@
  </footer>
  <!--/ Footer End /-->
 
-    <script src="asets/jquery/jquery.min.js"></script>
- 		<script src="asets/css/select2/select2.min.js"></script>
-    <script src="asets/datepicker/moment.min.js"></script>
-    <script src="asets/datepicker/daterangepicker.js"></script>
-    <script src="asets/js/global.js"></script>
+    <script src="<?php echo base_url('asets/jquery/jquery.min.js')?>"></script>
+ 		<script src="<?php echo base_url('asets/css/select2/select2.min.js')?>"></script>
+    <script src="<?php echo base_url('asets/datepicker/moment.min.js')?>"></script>
+    <script src="<?php echo base_url('asets/datepicker/daterangepicker.js')?>"></script>
+    <script src="<?php echo base_url('asets/js/global.js')?>"></script>
 </body>
 </html>

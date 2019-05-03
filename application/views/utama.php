@@ -83,19 +83,6 @@ $(document).ready(function() {
     });
 
 });
-
-
-
-function add_person()
-{
-    save_method = 'add';
-    $('#form')[0].reset(); // reset form on modals
-    $('.form-group').removeClass('has-error'); // clear error class
-    $('.help-block').empty(); // clear error string
-    $('#modal_form').modal('show'); // show bootstrap modal
-    $('.modal-title').text('Add Person'); // Set Title to Bootstrap modal title
-}
-
 function edit_person(id)
 {
     save_method = 'update';
@@ -240,12 +227,21 @@ function delete_person(id)
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3">Merk</label>
-                            <div class="col-md-9">
-                                <input name="merk" placeholder="Last Name" class="form-control" type="text">
-                                <span class="help-block"></span>
+                           <label class="control-label col-md-3" for="merk">Merk</label>
+                           <div class="col-md-9">
+                             <select class="form-control" id="merk" name="merk">
+                               <option>Toyota</option>
+                               <option>Honda</option>
+                               <option>Suzuki</option>
+                               <option>Nissan</option>
+                               <option>Mitsubishi</option>
+                               <option>Daihatsu</option>
+                               <option>Mazda</option>
+                               <option>Hino</option>
+                             </select>
+                             <span class="help-block"></span>
                             </div>
-                        </div>
+                         </div>
                         <div class="form-group">
                             <label class="control-label col-md-3">Tahun</label>
                             <div class="col-md-9">
