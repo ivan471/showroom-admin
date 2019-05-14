@@ -5,6 +5,7 @@
                <div class="card-body">
                    <h2 class="title">Tambah Data</h2>
                    <form action="simpan"method="POST" role="form">
+                     <input type="hidden" name="id" value="<?= $querys+1; ?>">
                      <div class="row row-space">
                           <div class="col-5">
                               <div class="input-group">
@@ -99,7 +100,7 @@
                            <div class="col-5">
                              <div class="input-group">
                                  <label class="label">Masa Berlaku STNK</label>
-                                   <input class="input--style-5" type="date" name="masa_berlaku" min="2010-12-31" placeholder="01-01-2010"required >
+                                   <input class="input--style-5" type="date" name="masa_berlaku_stnk" min="2010-12-31" placeholder="01-01-2010"required >
                              </div>
                            </div>
                            <div class="col-5">
@@ -126,14 +127,28 @@
                        <div class="row row-space">
                            <div class="col-5">
                                <div class="input-group">
-                                   <label class="label">Gambar 4</label>
-                                   <input class="input--style-4" type="text" name="gambar4"required>
+                                   <label class="label">Gambar 3</label>
+                                   <input class="input--style-4" type="text" name="gambar3"required>
                                </div>
                            </div>
                            <div class="col-5">
                                <div class="input-group">
-                                   <label class="label">Gambar 3</label>
-                                   <input class="input--style-4" type="text" name="gambar3"required>
+                                   <label class="label">Gambar 4</label>
+                                   <input class="input--style-4" type="text" name="gambar4"required>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row row-space">
+                           <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">Gambar 5</label>
+                                   <input class="input--style-4" type="text" name="gambar5"required>
+                               </div>
+                           </div>
+                           <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">Gambar 6</label>
+                                   <input class="input--style-4" type="text" name="gambar6"required>
                                </div>
                            </div>
                        </div>

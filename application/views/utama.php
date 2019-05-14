@@ -115,6 +115,8 @@ function edit_person(id)
             $('[name="gambar2"]').val(data.gambar2);
             $('[name="gambar3"]').val(data.gambar3);
             $('[name="gambar4"]').val(data.gambar4);
+            $('[name="gambar5"]').val(data.gambar5);
+            $('[name="gambar6"]').val(data.gambar6);
             $('[name="deskripsi"]').val(data.deskripsi);
             $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
             $('.modal-title').text('Edit Person'); // Set title to Bootstrap modal title
@@ -337,6 +339,20 @@ function delete_person(id)
                             <label class="control-label col-md-3">Gambar 4</label>
                             <div class="col-md-9">
                                 <input name="gambar4" placeholder="Last Name" class="form-control" type="text">
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Gambar 5</label>
+                            <div class="col-md-9">
+                                <input name="gambar5" placeholder="Last Name" class="form-control" type="text">
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Gambar 6</label>
+                            <div class="col-md-9">
+                                <input name="gambar6" placeholder="Last Name" class="form-control" type="text">
                                 <span class="help-block"></span>
                             </div>
                         </div>

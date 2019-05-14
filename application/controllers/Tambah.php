@@ -11,15 +11,17 @@ class Tambah extends CI_Controller {
   }
 	public function index()
 	{
+		$lastdata =  $this->model_mobil->get_last_query();
 		$this->form_validation->set_rules('nama', 'Nama', 'required');
+		//$data['id']= $this
+		$data['querys'] = $lastdata->id;
 		if ($this->form_validation->run() == FALSE) {
-			$this->load->template('input');
-		}else {
-			redirect(base_url());
+			$this->load->template('input', $data);
 		}
 	}
 	public function simpan()
 	{
 		$this->model_mobil->simpan();
+		redirect(base_url());
 	}
 }
