@@ -16,6 +16,7 @@ class Model_mobil extends CI_Model {
 						'type' => $this->input->post('type'),
 						'merk' => $this->input->post('merk'),
 						'model' => $this->input->post('model'),
+						'varian' => $this->input->post('varian'),
 						'warna' => $this->input->post('warna'),
 						'harga' => $this->input->post('harga'),
 						'tahun' => $this->input->post('tahun'),
@@ -34,7 +35,7 @@ class Model_mobil extends CI_Model {
 						'link' => $link,
 						'masa_berlaku_stnk' => $this->input->post('masa_berlaku_stnk')
 					];
-					// simpan ke database dalam tabel 'blogs'
+					// simpan ke database 
 		$this->db->insert( 'tb_mobil', $data );
 	}
 	function hapus_data($where,$table){

@@ -48,8 +48,8 @@
                        <div class="row row-space">
                            <div class="col-5">
                                <div class="input-group">
-                                   <label class="label">No Polisi</label>
-                                   <input class="input--style-4" type="text" name="no_polisi"required >
+                                   <label class="label">Varian</label>
+                                   <input class="input--style-4" type="text" name="varian"required >
                                </div>
                            </div>
                            <div class="col-5">
@@ -59,6 +59,14 @@
                                </div>
                            </div>
                        </div>
+                       <div class="row row-space">
+                           <div class="col-5">
+                               <div class="input-group">
+                                   <label class="label">No Polisi</label>
+                                   <input class="input--style-4" type="text" name="no_polisi"required >
+                               </div>
+                           </div>
+                        </div>
                        <div class="row row-space">
                            <div class="col-5">
                                <div class="input-group">
